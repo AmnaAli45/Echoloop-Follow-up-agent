@@ -1,0 +1,51 @@
+# ---------- Secrets (kabhi commit na karein) ----------
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+*.pem
+*.key
+
+# ---------- Real client / lead data ----------
+
+data/private/
+leads*.csv
+*_real.csv
+
+# ---------- Database ----------
+*.db
+*.sqlite
+*.sqlite3
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Frontend (React / Next.js) ----------
+node_modules/
+.next/
+out/
+dist/
+build/
+.vercel/
+
+# ---------- Editor / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
