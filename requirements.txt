@@ -6,3 +6,4 @@ python-dotenv
 pydantic
 pandas
 langchain-groq
+langgraph-checkpoint-sqlite
